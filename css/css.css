@@ -15,3 +15,41 @@ body {
 }
 
 
+.btn{
+    display: block;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: 0 0 .4rem #aaa;
+    margin: 1rem auto;
+    background-image: 
+        linear-gradient(
+          to bottom,
+          hsla(24.95, 86.32%, 54.12%, 0.84) 0%,
+          hsla(24.96, 86.32%, 54.59%, 0.842) 8.1%,
+          hsla(24.97, 86.29%, 55.91%, 0.848) 15.5%,
+          hsla(24.99, 86.24%, 57.95%, 0.857) 22.5%,
+          hsla(25.02, 86.18%, 60.58%, 0.868) 29%,
+          hsla(25.07, 86.09%, 63.67%, 0.881) 35.3%,
+          hsla(25.13, 85.97%, 67.09%, 0.896) 41.2%,
+          hsla(25.2, 85.81%, 70.71%, 0.912) 47.1%,
+          hsla(25.3, 85.61%, 74.39%, 0.928) 52.9%,
+          hsla(25.44, 85.34%, 78%, 0.944) 58.8%,
+          hsla(25.61, 84.99%, 81.42%, 0.959) 64.7%,
+          hsla(25.84, 84.54%, 84.51%, 0.972) 71%,
+          hsla(26.12, 83.99%, 87.15%, 0.983) 77.5%,
+          hsla(26.44, 83.38%, 89.19%, 0.992) 84.5%,
+          hsla(26.72, 82.84%, 90.51%, 0.998) 91.9%,
+          hsl(26.84, 82.61%, 90.98%) 100%
+        );
+    outline: none;
+    }
+.content{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: bold; 
+    text-transform: capitalize;
+    }

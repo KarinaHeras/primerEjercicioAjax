@@ -5,11 +5,10 @@ function traer(){
     .then(res => res.json())
     
     .then(data => {
-        console.log(data.results[`0`])
-contenido.innerHTML= `
-<img src= "${ data.results ['0'].picture.large}" width= "120px" class="img-fluid reunded-circle">
-<p>Nombre:</p>`
+          contenido.innerHTML= `
+          <img src= "${ data.results[0].picture.large}" width= "120px" class="img-fluid reunded-circle">
+          <p>${ data.results[0].name.title} ${data.results[0].name.first}</p>`
 
-    })
+        })
     
 }
